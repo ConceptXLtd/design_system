@@ -1,0 +1,19 @@
+{
+  "name": "soppiya-design-system",
+  "version": "1.0.0",
+  "description": "design library for soppiya",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ConceptXLtd/design_system.git"
+  },
+  "author": "Asad Bin abdullah",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ConceptXLtd/design_system/issues"
+  },
+  "homepage": "https://github.com/ConceptXLtd/design_system#readme"
+}
