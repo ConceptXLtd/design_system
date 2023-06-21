@@ -3,10 +3,10 @@ import style from "./text.module.css"
 /**
  * Text component is reusable for every case
  * @typedef {("dark" | "light")} screenModeTypes
- * @typedef {("heading" | "title" | "subTitle", | "label" | "content")} typeTypes
+ * @typedef {("heading" | "title" | "subTitle" | "label" | "content")} typeTypes
  * @typedef {("h1" | "h2" | "h3" | "h4" )} tagTypes
  * @typedef {("fs_c_10" |"fs_c_11" |"fs_c_12" |"fs_c_13" |"fs_c_14" |"fs_c_15" |"fs_c_16" |"fs_c_17" |"fs_c_18" |"fs_c_19" |"fs_c_20" |"fs_c_21" |"fs_c_22" |"fs_c_23" |"fs_c_24" | "fs_h_14" | "fs_h_15" | "fs_h_16" | "fs_h_17" | "fs_h_18" | "fs_h_19" | "fs_h_20" | "fs_h_21" | "fs_h_22" | "fs_h_23" | "fs_h_24" )} fontSizeTypes
- * @typedef {(400 | 500 | 600 | 700 )} fontWeightTypes
+ * @typedef {("400" | "500" | "600" | "700" )} fontWeightTypes
  * @param {{
  *      screenMode: screenModeTypes, 
  *      content: string, 
