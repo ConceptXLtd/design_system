@@ -1,5 +1,3 @@
-import "./text.css";
-
 /**
  * Text component is reusable for every case
  * @typedef {{
