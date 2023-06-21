@@ -20,21 +20,24 @@ import "./text.css";
  * @param args.emphasis - value of text style italic or not
  */
 
-export default function Text({  content, type, tag, fontSize, fontWeight, color, underline, strong, emphasis }) {
-    let output = content;
-    if (emphasis) output = <em> {output} </em>;
-    if (underline) output = <u> {output} </u>;
-    if (strong) output = <strong> {output} </strong>;
+class TextComponent{
+    create({ content, type, tag, fontSize, fontWeight, color, underline, strong, emphasis }){
+        let output = content;
+        if (emphasis) output = <em> {output} </em>;
+        if (underline) output = <u> {output} </u>;
+        if (strong) output = <strong> {output} </strong>;
+    
+        const headTags = {
+            h1: <h1 style={{ fontWeight: fontWeight || "", color: color || "" }} className={`${type} ${fontSize}`} > {content} </h1> ,
+            h2: <h2 style={{ fontWeight: fontWeight || "", color: color || "" }} className={`${type} ${fontSize}`} > {content} </h2> ,
+            h3: <h3 style={{ fontWeight: fontWeight || "", color: color || "" }} className={`${type} ${fontSize}`} > {content} </h3> ,
+            h4: <h4 style={{ fontWeight: fontWeight || "", color: color || "" }} className={`${type} ${fontSize}`} > {content} </h4>
+        };
+      
+        if (["heading", "title", "subTitle"].includes(type)) return headTags[tag];
+        else if (type === "label") return <label style={{ fontWeight: fontWeight || "", color: color || "" }} className={`${type} ${fontSize}`} > {output} </label> ;
+        else if (type === "content") return  <p style={{ fontWeight: fontWeight || "", color: color || "" }} className={`${type} ${fontSize}`} > {output} </p>;
+        else return output;
+    }
 
-    const headTags = {
-        h1: <h1 style={{ fontWeight: fontWeight || "", color: color || "" }} className={`${type} ${fontSize}`} > {content} </h1> ,
-        h2: <h2 style={{ fontWeight: fontWeight || "", color: color || "" }} className={`${type} ${fontSize}`} > {content} </h2> ,
-        h3: <h3 style={{ fontWeight: fontWeight || "", color: color || "" }} className={`${type} ${fontSize}`} > {content} </h3> ,
-        h4: <h4 style={{ fontWeight: fontWeight || "", color: color || "" }} className={`${type} ${fontSize}`} > {content} </h4>
-    };
-  
-    if (["heading", "title", "subTitle"].includes(type)) return headTags[tag];
-    else if (type === "label") return <label style={{ fontWeight: fontWeight || "", color: color || "" }} className={`${type} ${fontSize}`} > {output} </label> ;
-    else if (type === "content") return  <p style={{ fontWeight: fontWeight || "", color: color || "" }} className={`${type} ${fontSize}`} > {output} </p>;
-    else return output;
 }
