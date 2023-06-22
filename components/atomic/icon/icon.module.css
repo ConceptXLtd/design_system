@@ -1,0 +1,49 @@
+/* icon sizes mobile devices */
+.is_72 {font-size: 30px}
+.is_60 {font-size: 24px}
+.is_52 {font-size: 24px}
+.is_48 {font-size: 24px}
+.is_44 {font-size: 24px}
+.is_40 {font-size: 20px}
+.is_38 {font-size: 20px}
+.is_36 {font-size: 20px}
+.is_34 {font-size: 20px}
+.is_32 {font-size: 20px}
+.is_30 {font-size: 16px}
+.is_28 {font-size: 16px}
+.is_24 {font-size: 14px}
+.is_20 {font-size: 14px}
+.is_16 {font-size: 14px}
+.is_14 {font-size: 12px}
+.is_12 {font-size: 10px}
+.is_10 {font-size:  8px}
+.is_8  {font-size:  8px}
+
+/* dark mode */
+.dark{ color: #FFFFFF }
+
+/* light mode */
+.light{ color: #000000 }
+
+@media only screen and (min-width: 1024px) {
+    /* fontSize large devices */
+    .is_72 {font-size: 72px}
+    .is_60 {font-size: 60px}
+    .is_52 {font-size: 52px}
+    .is_48 {font-size: 48px}
+    .is_44 {font-size: 44px}
+    .is_40 {font-size: 40px}
+    .is_38 {font-size: 38px}
+    .is_36 {font-size: 36px}
+    .is_34 {font-size: 34px}
+    .is_32 {font-size: 32px}
+    .is_30 {font-size: 30px}
+    .is_28 {font-size: 28px}
+    .is_24 {font-size: 24px}
+    .is_20 {font-size: 20px}
+    .is_16 {font-size: 16px}
+    .is_14 {font-size: 14px}
+    .is_12 {font-size: 12px}
+    .is_10 {font-size: 10px}
+    .is_8  {font-size:  8px}
+  }

@@ -1,32 +1,23 @@
-/* content fontSize */
-.fs_c_10 {font-size: 10px}
-.fs_c_11 {font-size: 11px}
-.fs_c_12 {font-size: 12px}
-.fs_c_13 {font-size: 13px}
-.fs_c_14 {font-size: 14px}
-.fs_c_15 {font-size: 15px}
-.fs_c_16 {font-size: 16px}
-.fs_c_17 {font-size: 17px}
-.fs_c_18 {font-size: 18px}
-.fs_c_19 {font-size: 19px}
-.fs_c_20 {font-size: 20px}
-.fs_c_21 {font-size: 21px}
-.fs_c_22 {font-size: 22px}
-.fs_c_23 {font-size: 23px}
-.fs_c_24 {font-size: 24px}
-
-/* heading fontSize */
-.fs_h_14 {font-size: 14px}
-.fs_h_15 {font-size: 15px}
-.fs_h_16 {font-size: 16px}
-.fs_h_17 {font-size: 17px}
-.fs_h_18 {font-size: 18px}
-.fs_h_19 {font-size: 19px}
-.fs_h_20 {font-size: 20px}
-.fs_h_21 {font-size: 21px}
-.fs_h_22 {font-size: 22px}
-.fs_h_23 {font-size: 23px}
-.fs_h_24 {font-size: 24px}
+/* fontSize mobile devices */
+.fs_72 {font-size: 30px}
+.fs_60 {font-size: 24px}
+.fs_52 {font-size: 24px}
+.fs_48 {font-size: 24px}
+.fs_44 {font-size: 24px}
+.fs_40 {font-size: 20px}
+.fs_38 {font-size: 20px}
+.fs_36 {font-size: 20px}
+.fs_34 {font-size: 20px}
+.fs_32 {font-size: 20px}
+.fs_30 {font-size: 16px}
+.fs_28 {font-size: 16px}
+.fs_24 {font-size: 14px}
+.fs_20 {font-size: 14px}
+.fs_16 {font-size: 14px}
+.fs_14 {font-size: 12px}
+.fs_12 {font-size: 10px}
+.fs_10 {font-size:  8px}
+.fs_8  {font-size:  8px}
 
 /* screenMode dark */
 .heading.dark{ color: #FFFFFF }
@@ -43,33 +34,24 @@
 .content.light{ color: #747D8C }
 
 @media only screen and (min-width: 1024px) {
-  /* content fontSize */
-  .fs_c_10 {font-size: 12px}
-  .fs_c_11 {font-size: 12px}
-  .fs_c_12 {font-size: 14px}
-  .fs_c_13 {font-size: 14px}
-  .fs_c_14 {font-size: 16px}
-  .fs_c_15 {font-size: 18px}
-  .fs_c_16 {font-size: 18px}
-  .fs_c_17 {font-size: 20px}
-  .fs_c_18 {font-size: 20px}
-  .fs_c_19 {font-size: 22px}
-  .fs_c_20 {font-size: 22px}
-  .fs_c_21 {font-size: 24px}
-  .fs_c_22 {font-size: 24px}
-  .fs_c_23 {font-size: 24px}
-  .fs_c_24 {font-size: 26px}
-
-  /* heading fontSize */
-  .fs_h_14 {font-size: 20px}
-  .fs_h_15 {font-size: 22px}
-  .fs_h_16 {font-size: 24px}
-  .fs_h_17 {font-size: 26px}
-  .fs_h_18 {font-size: 26px}
-  .fs_h_19 {font-size: 28px}
-  .fs_h_20 {font-size: 28px}
-  .fs_h_21 {font-size: 30px}
-  .fs_h_22 {font-size: 30px}
-  .fs_h_23 {font-size: 32px}
-  .fs_h_24 {font-size: 32px}
+  /* fontSize large devices */
+  .fs_72 {font-size: 72px}
+  .fs_60 {font-size: 60px}
+  .fs_52 {font-size: 52px}
+  .fs_48 {font-size: 48px}
+  .fs_44 {font-size: 44px}
+  .fs_40 {font-size: 40px}
+  .fs_38 {font-size: 38px}
+  .fs_36 {font-size: 36px}
+  .fs_34 {font-size: 34px}
+  .fs_32 {font-size: 32px}
+  .fs_30 {font-size: 30px}
+  .fs_28 {font-size: 28px}
+  .fs_24 {font-size: 24px}
+  .fs_20 {font-size: 20px}
+  .fs_16 {font-size: 16px}
+  .fs_14 {font-size: 14px}
+  .fs_12 {font-size: 12px}
+  .fs_10 {font-size: 10px}
+  .fs_8  {font-size:  8px}
 }
