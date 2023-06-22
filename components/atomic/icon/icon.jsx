@@ -10,6 +10,7 @@ import style from "./icon.module.css"
  *      fill: String, 
  * }} args
  * @param args.screenMode - screenMode type
+ * @param args.type - icon type
  * @param args.iconSize - responsive icon size
  * @param args.fill - fill color of the icon
  */
@@ -24,7 +25,7 @@ export default function Icon({
 }){
     const IconType = Icons[type]
     return (
-        <svg className={`${style[iconSize]} ${style[screenMode]}`}>
+        <svg className={`${style[iconSize]} ${style[screenMode]}`} viewBox="0 0 14 14">
             <IconType fill={fill} />
         </svg>
     )

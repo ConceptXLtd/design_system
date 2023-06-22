@@ -1,49 +1,49 @@
 /* icon sizes mobile devices */
-.is_72 {font-size: 30px}
-.is_60 {font-size: 24px}
-.is_52 {font-size: 24px}
-.is_48 {font-size: 24px}
-.is_44 {font-size: 24px}
-.is_40 {font-size: 20px}
-.is_38 {font-size: 20px}
-.is_36 {font-size: 20px}
-.is_34 {font-size: 20px}
-.is_32 {font-size: 20px}
-.is_30 {font-size: 16px}
-.is_28 {font-size: 16px}
-.is_24 {font-size: 14px}
-.is_20 {font-size: 14px}
-.is_16 {font-size: 14px}
-.is_14 {font-size: 12px}
-.is_12 {font-size: 10px}
-.is_10 {font-size:  8px}
-.is_8  {font-size:  8px}
+.is_72 {height: 30px; width: 30px}
+.is_60 {height: 24px; width: 24px}
+.is_52 {height: 24px; width: 24px}
+.is_48 {height: 24px; width: 24px}
+.is_44 {height: 24px; width: 24px}
+.is_40 {height: 20px; width: 20px}
+.is_38 {height: 20px; width: 20px}
+.is_36 {height: 20px; width: 20px}
+.is_34 {height: 20px; width: 20px}
+.is_32 {height: 20px; width: 20px}
+.is_30 {height: 16px; width: 16px}
+.is_28 {height: 16px; width: 16px}
+.is_24 {height: 14px; width: 14px}
+.is_20 {height: 14px; width: 14px}
+.is_16 {height: 14px; width: 14px}
+.is_14 {height: 12px; width: 12px}
+.is_12 {height: 10px; width: 10px}
+.is_10 {height:  8px; width:  8px}
+.is_8  {height:  8px; width:  8px}
 
 /* dark mode */
-.dark{ color: #FFFFFF }
+.dark path{ fill: #FFFFFF }
 
 /* light mode */
-.light{ color: #000000 }
+.light path{ fill: #000000 }
 
 @media only screen and (min-width: 1024px) {
     /* fontSize large devices */
-    .is_72 {font-size: 72px}
-    .is_60 {font-size: 60px}
-    .is_52 {font-size: 52px}
-    .is_48 {font-size: 48px}
-    .is_44 {font-size: 44px}
-    .is_40 {font-size: 40px}
-    .is_38 {font-size: 38px}
-    .is_36 {font-size: 36px}
-    .is_34 {font-size: 34px}
-    .is_32 {font-size: 32px}
-    .is_30 {font-size: 30px}
-    .is_28 {font-size: 28px}
-    .is_24 {font-size: 24px}
-    .is_20 {font-size: 20px}
-    .is_16 {font-size: 16px}
-    .is_14 {font-size: 14px}
-    .is_12 {font-size: 12px}
-    .is_10 {font-size: 10px}
-    .is_8  {font-size:  8px}
+    .is_72 {height: 72px; width: 72px }
+    .is_60 {height: 60px; width: 60px }
+    .is_52 {height: 52px; width: 52px }
+    .is_48 {height: 48px; width: 48px }
+    .is_44 {height: 44px; width: 44px }
+    .is_40 {height: 40px; width: 40px }
+    .is_38 {height: 38px; width: 38px }
+    .is_36 {height: 36px; width: 36px }
+    .is_34 {height: 34px; width: 34px }
+    .is_32 {height: 32px; width: 32px }
+    .is_30 {height: 30px; width: 30px }
+    .is_28 {height: 28px; width: 28px }
+    .is_24 {height: 24px; width: 24px }
+    .is_20 {height: 20px; width: 20px }
+    .is_16 {height: 16px; width: 16px }
+    .is_14 {height: 14px; width: 14px }
+    .is_12 {height: 12px; width: 12px }
+    .is_10 {height: 10px; width: 10px }
+    .is_8  {height:  8px; width:  8px }
   }
