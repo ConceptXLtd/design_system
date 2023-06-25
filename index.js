@@ -1,9 +1,3 @@
-import Text from "./text/text"
-import Icon from "./icon/icon"
-import Button from "./button/Button"
-
-export default {
-    Text,
-    Icon,
-    Button
-}
+export {Text} from "./text/text"
+export {Icon} from "./icon/icon"
+export {Button} from "./button/Button"

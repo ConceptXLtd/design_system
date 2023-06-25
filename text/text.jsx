@@ -32,7 +32,7 @@ import style from "./text.module.css"
  * @param args.id - any id string
  */
 
-export default function Text({ 
+export function Text({ 
     screenMode = "light", 
     content="lorem ipsum", 
     type="heading", 

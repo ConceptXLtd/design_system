@@ -21,7 +21,7 @@ import style from "./button.module.css";
 * @param args.id - button id
 */
 
-export default function Button({
+export function Button({
   type = "primary",
   icon,
   text,

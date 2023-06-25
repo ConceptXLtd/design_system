@@ -21,7 +21,7 @@ import style from "./icon.module.css"
 
 import Icons from "./lib/__list"
 
-export default function Icon({
+export function Icon({
     screenMode = "light", 
     type = "Account",
     iconSize = "is_72",
