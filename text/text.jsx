@@ -18,6 +18,7 @@ import style from "./text.module.css"
  *      underline: boolean,
  *      strong: boolean,
  *      emphasis: boolean 
+ *      id: string
  * }} args
  * @param args.screenMode - screenMode type
  * @param args.content - text render content
@@ -28,6 +29,7 @@ import style from "./text.module.css"
  * @param args.color - text color
  * @param args.underline - value of text underline visible or not
  * @param args.emphasis - value of text style italic or not
+ * @param args.id - any id string
  */
 
 export default function Text({ 
@@ -40,7 +42,8 @@ export default function Text({
     color, 
     underline, 
     strong, 
-    emphasis 
+    emphasis,
+    id
 }){
     let output = content;
     if (emphasis) output = <em> {output} </em>;
@@ -48,14 +51,14 @@ export default function Text({
     if (strong) output = <strong> {output} </strong>;
 
     const headTags = {
-        h1: <h1 style={{ fontWeight: fontWeight || "", color: color || "" }} className={`${style[type]} ${style[screenMode]} ${style[fontSize]}`} > {content} </h1>,
-        h2: <h2 style={{ fontWeight: fontWeight || "", color: color || "" }} className={`${style[type]} ${style[screenMode]} ${style[fontSize]}`} > {content} </h2>,
-        h3: <h3 style={{ fontWeight: fontWeight || "", color: color || "" }} className={`${style[type]} ${style[screenMode]} ${style[fontSize]}`} > {content} </h3>,
-        h4: <h4 style={{ fontWeight: fontWeight || "", color: color || "" }} className={`${style[type]} ${style[screenMode]} ${style[fontSize]}`} > {content} </h4>
+        h1: <h1 {...(id && {id})} style={{ fontWeight: fontWeight || "", color: color || "" }} className={`${style[type]} ${style[screenMode]} ${style[fontSize]}`} > {content} </h1>,
+        h2: <h2 {...(id && {id})} style={{ fontWeight: fontWeight || "", color: color || "" }} className={`${style[type]} ${style[screenMode]} ${style[fontSize]}`} > {content} </h2>,
+        h3: <h3 {...(id && {id})} style={{ fontWeight: fontWeight || "", color: color || "" }} className={`${style[type]} ${style[screenMode]} ${style[fontSize]}`} > {content} </h3>,
+        h4: <h4 {...(id && {id})} style={{ fontWeight: fontWeight || "", color: color || "" }} className={`${style[type]} ${style[screenMode]} ${style[fontSize]}`} > {content} </h4>
     };
 
     if (["heading", "title", "subTitle"].includes(type)) return headTags[tag];
-    else if (type === "label") return <label style={{ fontWeight: fontWeight || "", color: color || "" }} className={`${style[type]} ${style[screenMode]} ${style[fontSize]}`} > {output} </label>;
-    else if (type === "content") return <p style={{ fontWeight: fontWeight || "", color: color || "" }} className={`${style[type]} ${style[screenMode]} ${style[fontSize]}`} > {output} </p>;
+    else if (type === "label") return <label {...(id && {id})} style={{ fontWeight: fontWeight || "", color: color || "" }} className={`${style[type]} ${style[screenMode]} ${style[fontSize]}`} > {output} </label>;
+    else if (type === "content") return <p {...(id && {id})} style={{ fontWeight: fontWeight || "", color: color || "" }} className={`${style[type]} ${style[screenMode]} ${style[fontSize]}`} > {output} </p>;
     else return output;
 }

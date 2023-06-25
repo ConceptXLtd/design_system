@@ -1,3 +1,9 @@
-import Components from "./components/component";
+import Text from "./text/text"
+import Icon from "./icon/icon"
+import Button from "./button/Button"
 
-export default {Components}
+export default {
+    Text,
+    Icon,
+    Button
+}

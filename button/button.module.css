@@ -1,0 +1,30 @@
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 13px;
+}
+
+.secondary {
+  background: transparent;
+  border: 1px solid #747D8C;
+  height: 30px;
+  padding: 0 15px;
+  border-radius: 3px;
+}
+
+.primary {
+  height: 30px;
+  padding: 0 15px;
+  border-radius: 3px;
+}
+
+.text {
+  background: transparent;
+  border: none;
+}
+
+@media only screen and (min-width: 1024) {
+  .btn {cursor: pointer}
+  .primary, .secondary {height: 35px;padding: 0 20px}
+}
