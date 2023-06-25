@@ -19,9 +19,9 @@ import style from "./icon.module.css"
  * @param args.id - any id string
  */
 
-import Icons from "./lib/__list"
+import * as Icons from "./lib/__list"
 
-export function Icon({
+export default function Icon({
     screenMode = "light", 
     type = "Account",
     iconSize = "is_72",
