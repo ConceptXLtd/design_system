@@ -1,6 +1,6 @@
 {
   "name": "soppiya-design-system",
-  "version": "1.0.19",
+  "version": "1.0.20",
   "description": "design library for soppiya",
   "main": "index.jsx",
   "scripts": {
