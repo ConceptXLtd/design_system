@@ -5,7 +5,13 @@
 .label__wrapper {
   display: inline-flex;
   align-items: center;
-  gap: 10px;
+  gap: 3px;
+  margin-bottom: 5px;
+}
+
+.icon{
+  display: inline-flex;
+  align-items: center;
 }
 
 .input__group {
@@ -64,6 +70,10 @@
 }
 
 @media only screen and (min-width: 1024px) {
+  .label__wrapper {
+    gap: 5px;
+    margin-bottom: 5px;
+  }
   .input__control {
     font-size: 14px;
     height: 35px;

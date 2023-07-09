@@ -55,7 +55,7 @@ export default function Input({
     <>
       <div className={style.label__wrapper}>
         {label}
-        {infoText && <div title={infoText}>{infoIcon}</div>}
+        {infoText && <div title={infoText} className={style.icon}>{infoIcon}</div>}
       </div>
       <div className={style.input__group}>
         <input

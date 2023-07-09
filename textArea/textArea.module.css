@@ -4,8 +4,13 @@
 .label__wrapper {
   display: inline-flex;
   align-items: center;
-  gap: 10px;
+  gap: 3px;
   margin-bottom: 3px;
+}
+
+.icon{
+  display: inline-flex;
+  align-items: center;
 }
 
 .input__group {
@@ -57,15 +62,9 @@
   border-color: #ff5e57;
 }
 
-.eye__icon {
-  position: absolute;
-  top: 50%;
-  right: 15px;
-  transform: translateY(-50%);
-}
-
 @media only screen and (min-width: 1024px) {
   .label__wrapper {
+    gap: 5px;
     margin-bottom: 5px;
   }
   .input__control {
