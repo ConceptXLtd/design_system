@@ -34,6 +34,7 @@ import style from "./input.module.css";
  * @param args.visibilityOffIcon - hide password icon
  * @param args.hasError - field error status
  */
+
 export default function Input({
   screenMode = "light",
   name,
@@ -48,6 +49,7 @@ export default function Input({
   visibilityOffIcon,
   hasError,
 }) {
+
   const [passwordVisibility, setPasswordVisibility] = useState(false);
 
   return (
@@ -66,12 +68,9 @@ export default function Input({
           onChange={onChangeEvent}
         />
         {type === "password" && (
-          <>
-            <span className={style.eye__icon} onClick={() => setPasswordVisibility((prev) => !prev)}>
-              {passwordVisibility ? visibilityOnIcon : visibilityOffIcon}
-              {/* {eyeOpened} */}
-            </span>
-          </>
+          <span className={style.eye__icon} onClick={() => setPasswordVisibility((prev) => !prev)}>
+            {passwordVisibility ? visibilityOnIcon : visibilityOffIcon}
+          </span>
         )}
       </div>
     </>

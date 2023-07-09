@@ -1,6 +1,7 @@
 * {
   box-sizing: border-box;
 }
+
 .label__wrapper {
   display: inline-flex;
   align-items: center;
@@ -9,7 +10,6 @@
 
 .input__group {
   position: relative;
-  /* width: 220px; */
 }
 
 .input__control {
