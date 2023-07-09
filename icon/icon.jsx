@@ -30,8 +30,6 @@ export default function Icon({
 }){
     const IconType = Icons[type]
     return (
-        <svg {...(id && {id})} className={`${style[iconSize]} ${style[screenMode]}`} viewBox="0 0 14 14">
-            <IconType fill={fill} />
-        </svg>
+        <IconType fill={fill} id={id} className={`${style[iconSize]} ${style[screenMode]}`}/>
     )
 }

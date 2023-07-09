@@ -37,7 +37,7 @@ export default function Text({
     content="lorem ipsum", 
     type="heading", 
     tag="h1", 
-    fontSize="fs_h_32", 
+    fontSize="fs_72", 
     fontWeight=400, 
     color, 
     underline, 
