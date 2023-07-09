@@ -1,4 +1,3 @@
-import PropTypes from "prop-types";
 import { useState } from "react";
 import style from "./input.module.css";
 
@@ -76,18 +75,3 @@ export default function Input({
     </>
   );
 }
-
-Input.propTypes = {
-  screenMode: PropTypes.oneOf(["light", "dark"]),
-  name: PropTypes.string.isRequired,
-  label: PropTypes.oneOfType([PropTypes.string, PropTypes.element]),
-  infoIcon: PropTypes.element,
-  infoText: PropTypes.string,
-  type: PropTypes.oneOf(["text", "number", "email", "password", "date"]),
-  placeholder: PropTypes.string.isRequired,
-  value: PropTypes.string,
-  onChangeEvent: PropTypes.func,
-  visibilityOnIcon: PropTypes.element,
-  visibilityOffIcon: PropTypes.element,
-  hasError: PropTypes.bool,
-};
