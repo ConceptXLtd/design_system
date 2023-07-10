@@ -1,0 +1,13 @@
+.label__wrapper {
+  display: inline-flex;
+  align-items: center;
+  gap: 3px;
+  margin-bottom: 3px;
+}
+
+@media only screen and (min-width: 1024px) {
+  .label__wrapper {
+    gap: 5px;
+    margin-bottom: 5px;
+  }
+}
