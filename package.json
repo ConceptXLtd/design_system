@@ -1,6 +1,6 @@
 {
   "name": "soppiya-design-system",
-  "version": "1.0.23",
+  "version": "1.0.24",
   "description": "design library for soppiya",
   "main": "index.jsx",
   "scripts": {
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/ConceptXLtd/design_system/issues"
   },
-  "homepage": "https://github.com/ConceptXLtd/design_system#readme"
+  "homepage": "https://github.com/ConceptXLtd/design_system#readme",
+  "dependencies": {
+    "react-froala-wysiwyg": "^4.0.19"
+  }
 }
